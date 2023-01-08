@@ -1,1 +1,1 @@
-# Air Quality and Chronic Obstructive Pulmonary Disease - Causality Analysis
+# Causality Analysis : Air Quality and Chronic Obstructive Pulmonary Disease (COPD)
