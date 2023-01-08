@@ -17,17 +17,7 @@ Common purpose: To address the causal impact of confounding variables while draw
 ## Research Question 1: Causal Inference
 Question: Does low air quality cause the onset of Chronic Obstructive Pulmonary Disease (COPD)?
 
-### Method
-
-### Discussion
-
-### Conclusion
 
 ## Research Question 2: GLM & Random Forest
 Question: Can we predict whether people have COPD from geographical location and race/ethnicity?
 
-### Method
-
-### Discussion
-
-### Conclusion
