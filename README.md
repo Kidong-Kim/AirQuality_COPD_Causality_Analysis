@@ -14,3 +14,20 @@ Common purpose: To address the causal impact of confounding variables while draw
 - <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html"> Population Density </a>
 - <a href="https://ghdx.healthdata.org/record/ihme-data/united-states-smoking-prevalence-county-1996-2012"> Smoking Prevalence </a>
 
+## Research Question 1: Causal Inference
+Question: Does low air quality cause the onset of Chronic Obstructive Pulmonary Disease (COPD)?
+
+### Method
+
+### Discussion
+
+### Conclusion
+
+## Research Question 2: GLM & Random Forest
+Question: Can we predict whether people have COPD from geographical location and race/ethnicity?
+
+### Method
+
+### Discussion
+
+### Conclusion
