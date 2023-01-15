@@ -16,14 +16,26 @@ Common purpose: To address the causal impact of confounding variables while draw
 
 ---
 
-## Research Question 1: Causal Inference
-- Question: Does low air quality cause the onset of Chronic Obstructive Pulmonary Disease (COPD)?
+## Research Question 1 - Causal Inference
 
+Does low air quality cause the onset of Chronic Obstructive Pulmonary Disease (COPD)?
 
-## Research Question 2: GLM & Random Forest
-- Question: Can we predict whether people have COPD from geographical location and race/ethnicity?
+### Conclusion
 
----
+- Identified the causal effect of air quality on the prevalence of Chronic Obstructive Pulmonary Disease
+- Bad air quality causes the prevalence of COPD, the states with bad air quality can improve their legislation that regulates air pollutants generated from transportations, manufacturers, or place more air filtering technologies to control air pollutants generated from wildfires. So that individuals could be less exposed to ozone and PM 2.5 concentration which also decreases the prevalence of COPD.
+- Identified our treatment and outcome by merging air quality and COPD prevalence dataset and by adding confounding variables we were able to improve our model quality and certainty in our causal inference decision. 
+- For future studies, we could have found the relationship between genetic factors and prevalence of COPD or obtain census data that contains information of personal demographics of each state.
 
-## Conclusion
+## Research Question 2 - GLM & Random Forest
+
+Can we predict whether people have COPD from geographical location and race/ethnicity?
+
+### Conclusion
+
+- Results of Bayesian and Frequentist models produced different results for all the races; however, both Bayesian and Frequentist model produced very similar results for longitude and latitude.
+- Demographic features such as race had little to no feature importance, which means that geographical data alone suffice to predict COPD. i.e. Excluding racial features will have little to no impact to the accuracy of the model.
+- Using random forests, we’ve seen that location can predict COPD. Hence, we can use classification techniques (i.e. k-NN, hierarchical clustering) to first cluster locations based on common geographical attributes (i.e. rural/urban, climate, humidity, etc.). Then, it will be possible to identify relationships between a combination of geographical attributes and the prevalence of COPD or other respiratory diseases.
+- Future studies can test if residents in rural areas with dusty winds and/or factory air pollutants are more prone to respiratory diseases than those in urban areas. 
+
 
