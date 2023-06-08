@@ -38,6 +38,19 @@ Summarized and interpreted the results, providing a clear statement about causal
 
 Emphasized the need for further research and potential limitations, including the possibility of unaccounted confounders.
 
+## Introduction
+
+COPD is a chronic lung disease characterized by airflow obstruction. This project aims to provide an efficient and accurate system for COPD analysis, which can assist healthcare professionals in diagnosis and treatment planning. The project utilizes machine learning techniques, data preprocessing, and visualization tools to analyze patient data and predict COPD progression.
+
+## Features
+
+- Data preprocessing: Clean and preprocess patient data, including medical records, lung function tests, and demographic information.
+- Feature extraction: Extract relevant features from the preprocessed data, such as lung function parameters, smoking history, and comorbidities.
+- Machine learning models: Develop and train predictive models using various algorithms, including random forests, support vector machines, and neural networks.
+- Visualization: Create interactive visualizations to explore and analyze the data, helping healthcare professionals gain insights into COPD patterns and trends.
+- Evaluation: Assess the performance of the models using metrics such as accuracy, precision, recall, and area under the receiver operating characteristic curve (AUC-ROC).
+- Deployment: Deploy the trained models as a web application or API, enabling real-time COPD prediction for new patient data.
+
 
 ## Research Question 1 - Causal Inference
 
