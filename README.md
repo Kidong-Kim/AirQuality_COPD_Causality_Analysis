@@ -16,6 +16,29 @@ Common purpose: To address the causal impact of confounding variables while draw
 
 ---
 
+Project: Investigating the Impact of Air Quality and Geographic Factors on Chronic Disease Prevalence
+
+Conducted an in-depth analysis to explore the relationship between air quality, geographic factors, and the prevalence of chronic obstructive pulmonary disease (COPD) among adults.
+
+Collected and processed various datasets including COPD prevalence, air quality measurements (ozone and PM2.5 concentrations), smoking prevalence, greenhouse gas emissions, wildfire occurrences, and population density.
+
+Performed exploratory data analysis (EDA) to gain insights into the distribution and patterns of the data, including visualizations of COPD prevalence, air quality measurements, smoking rates, and wildfire occurrences across different states.
+
+Investigated confounding variables such as smoking prevalence and greenhouse gas emissions, and their potential impact on COPD prevalence and air quality.
+
+Employed unconfoundedness techniques to estimate the causal average treatment effect (ATE) of bad air quality on COPD prevalence.
+
+Utilized inverse propensity weighting (IPW) to adjust for confounding variables and estimate the ATE.
+
+Developed a linear regression model to predict COPD prevalence based on air quality measures, smoking rates, wildfire occurrences, and population density.
+
+Assessed model performance and interpretability, utilizing statistical measures such as R-squared and coefficients.
+
+Summarized and interpreted the results, providing a clear statement about causality and the estimated effect of bad air quality on COPD prevalence.
+
+Emphasized the need for further research and potential limitations, including the possibility of unaccounted confounders.
+
+
 ## Research Question 1 - Causal Inference
 
 Does low air quality cause the onset of Chronic Obstructive Pulmonary Disease (COPD)?
